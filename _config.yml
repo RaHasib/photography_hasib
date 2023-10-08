@@ -1,0 +1,32 @@
+# Base configs
+#baseurl: "raiuslhasib.art"
+baseurl: "" # Comment the above line and uncomment this to test the website locally
+image_fulls_loc: "/images/fulls"
+image_thumbs_loc: "/images/thumbs"
+google_analytics: "G-VC40H2DLZG" #Google Analytics id number
+
+# UI configs
+title: "Photography by Raisul Amin Hasib"
+subtitle: "See the world through my eyes and glimpse the beauty within!"
+author: "Raisul Amin Hasib"
+header:
+ title: "Photography"
+ subtitle: "by Raisul Amin Hasib"
+footer:
+ name: "Hey there, my name is Raisul Amin Hasib"
+ bio: "I am a developer, designer and a tech aficionado. Love to solve teeny tiny problems in life and now learning photography."
+ github: "More info about myself  <a href=\"https://raisulhasib.dev/\">Click to view my Portfolio</a> ;)"
+web_design: "Raisul Amin Hasib"
+# Configure which exif data to display
+# Tag is the actual exif tag, icon is a fontawesome icon. Use JSON notation without line breaks
+exif: '[{"tag": "Model", "icon": "camera-retro"}, {"tag": "FNumber", "icon": "dot-circle-o"}, {"tag": "ExposureTime", "icon": "clock-o"}, {"tag": "ISOSpeedRatings", "icon": "info-circle"}]'
+social_urls:
+  twitter: "https://twitter.com/RaisulHasib"
+  instagram: "https://www.instagram.com/raisul_hasib/"
+  dribbble: "https://dribbble.com/RIck_Way"
+  linkedin: "https://www.linkedin.com/in/raisul-amin-hasib-362413179/"
+  github: "https://github.com/RaHasib"
+
+#plugins:
+# - jekyll-feed
+# - jekyll-seo-tag

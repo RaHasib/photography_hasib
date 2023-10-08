@@ -1,0 +1,29 @@
+{
+  "name": "hasib-photography",
+  "version": "4.0.0",
+  "description": "Photography",
+  "main": "npmfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "photography",
+    "jekyll",
+    "website",
+    "template",
+    "website template",
+    "portfolio",
+    "portfolio website"
+  ],
+  "author": "Hasib",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.0",
+    "sass": "^1.25.0"
+  }
+}
