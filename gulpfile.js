@@ -27,8 +27,9 @@ gulp.task('resize-images', function () {
 
 // compile scss to css
 gulp.task('sass', function () {
+    process.env.NODE_OPTIONS = '--no-deprecation';
     return gulp.src('./assets/sass/main.scss')
-        .pipe(sass({outputStyle: 'compressed', quietDeps: true}).on('error', sass.logError))
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename({basename: 'main.min'}))
         .pipe(gulp.dest('./assets/css'));
 });
